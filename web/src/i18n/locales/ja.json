@@ -3242,6 +3242,10 @@
     "5m缓存创建：{{tokens}} / 1M * 模型倍率 {{modelRatio}} * 5m缓存创建倍率 {{cacheCreationRatio5m}} * {{ratioType}} {{ratio}} = {{amount}}": "5m キャッシュ作成: {{tokens}} / 1M * モデル倍率 {{modelRatio}} * 5m キャッシュ作成倍率 {{cacheCreationRatio5m}} * {{ratioType}} {{ratio}} = {{amount}}",
     "1h缓存创建：{{tokens}} / 1M * 模型倍率 {{modelRatio}} * 1h缓存创建倍率 {{cacheCreationRatio1h}} * {{ratioType}} {{ratio}} = {{amount}}": "1h キャッシュ作成: {{tokens}} / 1M * モデル倍率 {{modelRatio}} * 1h キャッシュ作成倍率 {{cacheCreationRatio1h}} * {{ratioType}} {{ratio}} = {{amount}}",
     "输出：{{tokens}} / 1M * 模型倍率 {{modelRatio}} * 输出倍率 {{completionRatio}} * {{ratioType}} {{ratio}} = {{amount}}": "出力: {{tokens}} / 1M * モデル倍率 {{modelRatio}} * 出力倍率 {{completionRatio}} * {{ratioType}} {{ratio}} = {{amount}}",
-    "空": "空"
+    "空": "空",
+    "自动禁用错误代码": "自動無効化エラーコード",
+    "当上游通道返回的错误代码匹配这些值时（不区分大小写），自动禁用通道": "上流チャネルがこれらの値に一致するエラーコードを返した場合（大文字小文字を区別しない）、チャネルを自動的に無効化します",
+    "自动禁用错误类型": "自動無効化エラータイプ",
+    "当上游通道返回的错误类型匹配这些值时（不区分大小写），自动禁用通道": "上流チャネルがこれらの値に一致するエラータイプを返した場合（大文字小文字を区別しない）、チャネルを自動的に無効化します"
   }
 }
